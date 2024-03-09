@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+  justify-content: center;
+}
+
+.playerContainer {
+  background-color: burlywood;
+  height: 90%;
+  width: 50%;
+}
