@@ -1,18 +1,29 @@
 body {
   margin: 0;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .container {
   height: 100%;
   width: 100%;
   background-color: brown;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .playerContainer {
   background-color: burlywood;
   height: 90%;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#playerImage {
+  height: 200px;
+  width: 300px;
 }
